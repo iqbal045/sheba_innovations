@@ -1,15 +1,21 @@
 const config = require('config');
 
-const brandRoutes = require('./admin/brandRoutes');
+const courseRoutes = require('./courseRoutes');
+const enrollmentRoutes = require('./enrollmentRoutes');
 
 // env_config
 const api = config.get('API_URL');
 
 const routes = [
-  // Categorisation Routes
+  // Course Routes
   {
-    path: `${api}/brands`,
-    handler: brandRoutes,
+    path: `${api}/courses`,
+    handler: courseRoutes,
+  },
+  // Enrollment Routes
+  {
+    path: `${api}/enrollments`,
+    handler: enrollmentRoutes,
   },
 
   // Common Routes
