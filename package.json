@@ -30,5 +30,8 @@
     "eslint-plugin-security": "^1.7.0",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   }
 }

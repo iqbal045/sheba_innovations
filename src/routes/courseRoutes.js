@@ -8,10 +8,10 @@ const {
 
 router.get('/', getAllCourses);
 
+router.get('/filter', filterCourses);
+
 router.get('/:id', getSingleCourse);
 
 router.post('/', createCourse);
-
-router.get('/filter', filterCourses);
 
 module.exports = router;
