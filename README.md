@@ -5,7 +5,7 @@ This API allows you to manage courses and enroll students.
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-    - [Installation & running the app](#installation)
+    - [Installation & running the app](#installation-&-running-the-app)
 - [Endpoints](#endpoints)
     - [Get All Courses](#get-all-courses)
     - [Create a Course](#create-a-course)
